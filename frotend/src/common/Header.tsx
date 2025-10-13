@@ -1,4 +1,6 @@
 import { BookCheck, Plus } from 'lucide-react';
+import DialogTask from '../component/DialogTask';
+
 
 function Header(){
     return(
