@@ -3,6 +3,7 @@ import DialogTask from '../component/DialogTask';
 
 
 function Header(){
+
     return(
         <>
         <div className='flex items-center justify-center w-[100%] bg-neutral-900 text-white py-4'>
@@ -11,7 +12,9 @@ function Header(){
                     <BookCheck/>
                     <span>To do</span>
                 </div>
-            <button className='flex gap-1 justify-center items-center bg-blue-900 p-2 rounded-lg font-semibold cursor-pointer'>
+            <button 
+                className='flex gap-1 justify-center items-center bg-blue-900 p-2 rounded-lg font-semibold cursor-pointer'
+                >
                 <Plus/>
             </button>
         </header>
